@@ -11,8 +11,27 @@ html {
 
 nav{
     display: flex;
-    background-color: green;
+    background-color: #A1FF72;
     padding: 1rem;
     color: white;
+    justify-content: space-between;
+    align-items: center;
 
+}
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    padding-right: 3.5rem;
+    list-style: none;
+}
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
 }
